@@ -61,7 +61,7 @@ void infixToPostfix(std::string s)
 
 int main()
 {
-    std::string exp = "a+b*(c^d-e)^(f+g*h)-i";
+    std::string exp = "a-b/(c-d^e)*(f^g-h/i)+j/k^(l-m*n/o)+p";
     infixToPostfix(exp);
     return 0;
 }
